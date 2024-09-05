@@ -1,3 +1,36 @@
 body{
     background-color: antiquewhite;
 }
+
+:root{
+    --video-bg: black;
+}
+
+.youtube-video-holder{
+    width: 100%;
+    background-color: var(--video-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kezdetek{
+    text-align: left;
+    width: 700px;
+    background-color:;
+}
+
+#tech{
+    text-align: right;
+    width: 700px;
+}
+
+#twitch{
+    text-align: left;
+    width: 7dvh;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
