@@ -17,20 +17,28 @@ body{
 #kezdetek{
     text-align: left;
     width: 700px;
-    background-color:;
+    background-color: ;
 }
 
 #tech{
     text-align: right;
     width: 700px;
+    position: relative;
+    margin-left: 600px;
 }
 
 #twitch{
     text-align: left;
-    width: 7dvh;
+    width: 700px;
 }
 
 img{
     width: 100%;
     height: auto;
+    border-radius: 25px;
+}
+
+.egy{
+    background-color: rgb(127, 255, 212, 0.7);
+    border-radius: 50px;
 }
