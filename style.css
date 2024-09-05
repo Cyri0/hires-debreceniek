@@ -1,5 +1,10 @@
 body{
     background-color: antiquewhite;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 :root{
@@ -14,31 +19,33 @@ body{
     align-items: center;
 }
 
-#kezdetek{
-    text-align: left;
-    width: 700px;
-    background-color: ;
-}
-
-#tech{
-    text-align: right;
-    width: 700px;
-    position: relative;
-    margin-left: 600px;
-}
-
-#twitch{
-    text-align: left;
-    width: 700px;
+body>h1{
+    text-align: center;
 }
 
 img{
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
+    max-width: 30vw;
 }
 
-.egy{
-    background-color: rgb(127, 255, 212, 0.7);
-    border-radius: 50px;
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+    width: 100%;
+}
+
+section:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.mycontainer{
+    max-width: 1000px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
