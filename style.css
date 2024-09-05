@@ -1,0 +1,11 @@
+:root{
+    --video-bg: black;
+}
+
+.youtube-video-holder{
+    width: 100%;
+    background-color: var(--video-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
